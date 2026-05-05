@@ -1,57 +1,99 @@
-A simple and interactive Tic-Tac-Toe game built using web technologies. This project allows two players to play the classic game in a clean and responsive user interface.
+# ❌⭕ Tic Tac Toe Web App
 
-🚀 Features
-🎮 Two-player gameplay (Player X vs Player O)
-🧠 Win detection logic
-🔄 Game reset functionality
-✨ Interactive UI with real-time updates
-📱 Responsive design for different screen sizes
-🛠️ Technologies Used
-HTML5
-CSS3
-JavaScript
+A simple and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript. This project allows two players to play the classic game in the browser with a clean and responsive UI.
 
-(Add any frameworks like React, Bootstrap if you used them)
+---
 
-📂 Project Structure
+## 🚀 Features
+
+* Two-player gameplay (Player X vs Player O)
+* Interactive 3x3 grid
+* Win and draw detection
+* Game reset functionality
+* Simple and responsive design
+* Visual feedback for winning combination
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
+
+---
+
+## 📂 Project Structure
+
+```
 tic-tac-toe/
-│── index.html
-│── style.css
-│── script.js
-│── assets/ (optional)
-⚙️ How to Run the Project
+│
+├── index.html       # Main HTML file
+├── style.css        # Styling file
+└── script.js        # Game logic
+```
 
-Clone the repository:
+---
 
-git clone https://github.com/your-username/tic-tac-toe.git
-Open the project folder.
-Run the app:
-Open index.html in your browser
-OR
-Use Live Server in VS Code
-🎯 How to Play
-Player X starts the game
-Players take turns marking cells
-The first player to align 3 marks (row, column, or diagonal) wins
-If all cells are filled without a winner, the game ends in a draw
-📸 Screenshots
+## ▶️ How to Run
 
-(Add screenshots of your UI here)
+1. Download or clone this repository:
 
-💡 Learning Outcomes
-Strengthened JavaScript fundamentals
-Learned DOM manipulation and event handling
-Implemented game logic and conditions
-Improved UI/UX design skills
-🔮 Future Improvements
-🤖 Add AI opponent (single-player mode)
-🌐 Online multiplayer support
-🎨 Improved animations and sound effects
-🏆 Score tracking system
-🤝 Contributing
+   ```
+   git clone https://github.com/your-username/tic-tac-toe.git
+   ```
 
-Contributions are welcome! Feel free to fork the project and submit pull requests.
+2. Open the project folder.
 
-📄 License
+3. Double-click on `index.html`
+   OR
+   Right-click → Open with browser
+
+---
+
+## 🎮 How to Play
+
+* The game is played between two players:
+
+  * Player X goes first
+  * Player O goes second
+* Players take turns clicking on empty cells in the grid
+* The first player to align 3 marks (row, column, or diagonal) wins
+* If all cells are filled and no one wins, it's a draw
+
+---
+
+## 💡 How It Works
+
+* Each cell click is handled using JavaScript event listeners
+* The game state is stored in an array
+* Winning combinations are checked after every move
+* The UI updates dynamically based on player actions
+
+---
+
+## 📸 Screenshots (Optional)
+
+*Add screenshots of your game here*
+
+---
+
+## 🔮 Future Improvements
+
+* Add single-player mode (AI opponent)
+* Difficulty levels (easy, medium, hard)
+* Score tracking system
+* Sound effects and animations
+
+---
+
+## 📜 License
 
 This project is open-source and available under the MIT License.
+
+---
+
+## 🙌 Acknowledgements
+
+* Inspired by the classic Tic Tac Toe game.
+
